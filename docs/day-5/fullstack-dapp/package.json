@@ -1,0 +1,24 @@
+{
+    "name": "fullstack-dapp-day5",
+    "version": "1.0.0",
+    "description": "Day 5 - Full Stack dApp Integration on Avalanche",
+    "scripts": {
+        "dev:backend": "cd backend && npm run start:dev",
+        "dev:frontend": "cd frontend && npm run dev",
+        "build:backend": "cd backend && npm run build",
+        "build:frontend": "cd frontend && npm run build",
+        "start:backend": "cd backend && npm run start:prod",
+        "start:frontend": "cd frontend && npm run start",
+        "install:all": "cd backend && pnpm install && cd ../frontend && npm install"
+    },
+    "keywords": [
+        "avalanche",
+        "web3",
+        "dapp",
+        "nestjs",
+        "nextjs",
+        "viem"
+    ],
+    "author": "Tegar Andriyansyah",
+    "license": "MIT"
+}
